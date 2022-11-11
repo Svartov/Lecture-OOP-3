@@ -9,7 +9,7 @@ public class Program {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        Student student = new Student("Davyd", "Visko",Gender.man, 0, "231");
+        Student student = new Student("Davyd", "Visko",Gender.Man, 0, "231");
         Group group = new Group();
 
         getGroup(student, group);
